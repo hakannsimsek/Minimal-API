@@ -1,13 +1,13 @@
-using Microsoft.EntityFrameworkCore;
-using SixMinApi.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using MinimalAPI.Models;
 
-namespace SixMinApi.Data
+namespace MinimalAPI.Data
 {
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
-            
+
         }
 
         public DbSet<Command> Commands => Set<Command>();

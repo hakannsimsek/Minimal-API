@@ -1,6 +1,6 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace SixMinApi.Dtos
+namespace MinimalAPI.Dtos
 {
     public class CommandUpdateDto
     {
@@ -11,6 +11,5 @@ namespace SixMinApi.Dtos
         public string? Platform { get; set; }
         [Required]
         public string? CommandLine { get; set; }
-
     }
 }

@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "bhPG11FcHgauVYIUcYStVLimbgUfTueSaHFKm2Al/Ds=",
-  "Source": "SixMinApi",
-  "BasePath": "_content/SixMinApi",
+  "Hash": "KmyFTu8SQKB9szDtn8DAbbK3u6cH5OAwK8MXQiVbupo=",
+  "Source": "MinimalAPI",
+  "BasePath": "_content/MinimalAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
